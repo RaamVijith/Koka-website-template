@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koka</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Roboto and Coming Soon Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Coming+Soon&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="roboto-light">
+    <!-- Scrolling top text -->
+    <div class="scroll-text">
+      <span
+        >Clearance Sale Event: Up To 50% Off Select Items! Clearance Sale Event:
+        Up To 50% Off Select Items! Clearance Sale Event: Up To 50% Off Select
+        Items!</span
+      >
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Left-aligned logo -->
+        <a class="navbar-brand" style="font-size: 2rem" href="#">Koka</a>
+
+        <!-- Toggle button for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Center aligned menu items -->
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul
+            class="navbar-nav"
+            style="
+              font-size: 13px;
+              font-weight: 400;
+              padding-right: 20px;
+              font-weight: 450;
+            "
+          >
+            <li class="nav-item dropdown" style="padding-right: 15px">
+              <a
+                class="nav-link"
+                href="#"
+                id="homeDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >HOME +</a
+              >
+            </li>
+            <li class="nav-item dropdown" style="padding-right: 15px">
+              <a
+                class="nav-link"
+                href="#"
+                id="shopDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >SHOP +</a
+              >
+            </li>
+            <li class="nav-item dropdown" style="padding-right: 15px">
+              <a
+                class="nav-link"
+                href="#"
+                id="productDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >PRODUCT +</a
+              >
+            </li>
+            <li class="nav-item dropdown" style="padding-right: 15px">
+              <a
+                class="nav-link"
+                href="#"
+                id="blogDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >BLOG +</a
+              >
+            </li>
+            <li class="nav-item dropdown" style="padding-right: 15px">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="pagesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >PAGES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
+                <li><a class="dropdown-item" href="#">About Page</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                <li><a class="dropdown-item" href="#">Login Page</a></li>
+                <li><a class="dropdown-item" href="#">Order Tracking</a></li>
+                <li><a class="dropdown-item" href="#">Team Members</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Shipping Information</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Our Store Locations</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Gallery</a></li>
+              </ul>
+            </li>
+            <li class="nav-item" style="padding-right: 15px">
+              <a class="nav-link" href="#">GIFT CARD</a>
+            </li>
+            <li class="nav-item" style="padding-right: 15px">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Right-aligned icons -->
+        <div class="ms-auto d-flex">
+          <a href="#" class="btn me-2">
+            <i class="bi bi-search"></i>
+          </a>
+          <a href="#" class="btn me-2">
+            <i class="bi bi-bag"></i>
+          </a>
+          <a href="#" class="btn">
+            <i class="bi bi-person"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider section  -->
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide">
+          <img
+            src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/home-1-slider-image-1.jpg"
+            alt="Enchanting Fashion"
+          />
+          <div class="slide-content" style="text-align: right; left: 70%;">
+            <h2>Enchanting Fashion</h2>
+            <p>
+              Cursus vitae congue mauris rhoncus. Faucibus nisl tincidunt <br/> eget nullam non nisi est sit.
+            </p>
+            <a href="#" class="shop-now-btn">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/home-1-slider-image-2.jpg"
+            alt="Exclusive Collections"
+          />
+          <div class="slide-content">
+            <h2>Exclusive Collections</h2>
+            <p>
+              Est sit amet facilisis magna etiam tempor orci eu lobortis.<br/> etiam tempor orci eu lobortis. In tellus integer feugiat scelerisque varius.
+            </p>
+            <a href="#" class="shop-now-btn">SHOP NOW</a>
+          </div>
+        </div>
+        <div class="slide">
+          <img
+            src="https://wdtkoka.wpengine.com/wp-content/uploads/2023/12/home-1-slider-image-1.jpg"
+            alt="Novi's Collections"
+          />
+          <div class="slide-content" style="text-align: center; left: 40%;">
+            <h2>Novi's Collections</h2>
+            <p>
+              Arcu cursus euismod quis viverra nibh cras pulvinar mattis nunc.<br/> Turpis tincidunt id aliquet risus feugiat in ante metus.
+            </p>
+            <a href="#" class="shop-now-btn">SHOP NOW</a>
+          </div>
+        </div>
+        
+      </div>
+      <div class="slider-nav"></div>
+    </div>
+    
+
+    <!-- Fashion collection -->
+<div class="container-fluid py-5" style="padding-left: 10vw;">
+  <div class="row full-height">
+    <!-- Left Side - Full Height Image -->
+    <div class="col-12 col-md-4">
+      <div class="image-container full-height">
+        <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/full-img.png" alt="Left Full Image" class="img-fluid" />
+        <div class="image-overlay"></div>
+      </div>
+    </div>
+
+    <!-- Center - Text and Image (50% height each) -->
+    <div class="col-12 col-md-4 center-section">
+      <div class="text-section half-height text-center">
+        <p class="text-uppercase mb-0">Vital Categories</p>
+        <h2 class="main-title">Worldwide Fashion Collection</h2>
+        <a href="#" class="btn explore-btn">EXPLORE ALL</a>
+      </div>
+      <div class="image-container half-height">
+        <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/home-1-prod-collection-img-2.png" alt="Center Image" class="img-fluid" />
+        <div class="image-overlay"></div>
+      </div>
+    </div>
+
+    <!-- Right Side - Two Stacked Images with Gap -->
+    <div class="col-12 col-md-4">
+      <div class="image-container half-height">
+        <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/home-1-prod-collection-img-4.png" alt="Top Right Image" class="img-fluid" />
+        <div class="image-overlay"></div>
+      </div>
+      <div class="image-container half-height with-gap">
+        <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/home-1-prod-collection-img-3.png" alt="Bottom Right Image" class="img-fluid" />
+        <div class="image-overlay"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- banner  section -->
+    <div class="banner" style="height: 500px">
+      <!-- Left Side: Main Image -->
+      <div class="banner-left" style="height: 500px">
+        <img
+          src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-Deal-banner-aside-img.png"
+          alt="Banner Image"
+          style="height: 500px; width: 500px"
+        />
+      </div>
+
+      <!-- Right Side: Text and Timer -->
+      <div class="banner-right">
+        <p>EXCLUSIVE SALES WITH 50% OFF</p>
+        <h2>Seasonal Clearance Sale</h2>
+
+        <!-- Countdown Timer -->
+        <div class="timer">
+          <div>
+            <span id="days">150</span>
+            <small>Days</small>
+          </div>
+          <div>
+            <span id="hours">6</span>
+            <small>Hrs</small>
+          </div>
+          <div>
+            <span id="minutes">7</span>
+            <small>Mins</small>
+          </div>
+          <div>
+            <span id="seconds">6</span>
+            <small>Secs</small>
+          </div>
+        </div>
+
+        <!-- Shop Button -->
+        <button class="shop-button">Shop All</button>
+
+        <!-- Shoe Image with Hover Effect -->
+        <img
+          class="hover-shoe"
+          src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/koka-Deal-banner-showcase-image-01.png"
+          alt="Shoe"
+          style="height: 200px"
+        />
+      </div>
+    </div>
+
+      <!-- Product section -->
+      <div class="pwc-section-wrapper">
+        <div class="container">
+            <div class="pwc-section-header">
+                <div>
+                    <div class="pwc-section-subtitle">Popular Products of the Week</div>
+                    <h2 class="pwc-section-title">Latest Worthwhile Collections</h2>
+                    <hr style="width: 5vw; "/>
+                </div>
+                <a href="#" class="pwc-view-all">View All</a>
+            </div>
+  
+            <!-- First Row -->
+            <div class="pwc-products-row">
+                <!-- Product 1 -->
+                <div class="pwc-product-col">
+                    <div class="pwc-product-card">
+                        <div class="pwc-product-image-wrapper">
+                            <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-3-2.jpg" alt="Women's Tank Top" class="pwc-product-image">
+                            <div class="pwc-product-overlay">
+                                <button class="pwc-product-button">Quick View</button>
+                            </div>
+                        </div>
+                        <h3 class="pwc-product-title">Womens Summer Tank Tops</h3>
+                        <div class="pwc-price-range">$12.50 – $16.10</div>
+                    </div>
+                </div>
+  
+                <!-- Product 2 -->
+                <div class="pwc-product-col">
+                    <div class="pwc-product-card">
+                        <div class="pwc-product-image-wrapper">
+                            <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-2-2.jpg" alt="Walking Shoes" class="pwc-product-image">
+                            <div class="pwc-product-overlay">
+                                <button class="pwc-product-button">Quick View</button>
+                            </div>
+                        </div>
+                        <h3 class="pwc-product-title">Comfortable Walking Shoes</h3>
+                        <div class="pwc-price-range">
+                            <span class="pwc-original-price">$49.00</span>
+                            <span class="pwc-sale-price">$39.00</span>
+                        </div>
+                    </div>
+                </div>
+  
+                <!-- Product 3 -->
+                <div class="pwc-product-col">
+                    <div class="pwc-product-card">
+                        <div class="pwc-product-image-wrapper">
+                            <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-1-2.jpg" alt="Men's Shorts" class="pwc-product-image">
+                            <div class="pwc-product-overlay">
+                                <button class="pwc-product-button">Quick View</button>
+                            </div>
+                        </div>
+                        <h3 class="pwc-product-title">Men's Regular Shorts</h3>
+                        <div class="pwc-price-range">$16.20 – $22.00</div>
+                    </div>
+                </div>
+  
+                <!-- Product 4 -->
+                <div class="pwc-product-col">
+                    <div class="pwc-product-card">
+                        <div class="pwc-product-image-wrapper">
+                            <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-7-2.jpg" alt="Jean Shorts" class="pwc-product-image">
+                            <div class="pwc-product-overlay">
+                                <button class="pwc-product-button">Quick View</button>
+                            </div>
+                        </div>
+                        <h3 class="pwc-product-title">Black Jean Shorts For Women</h3>
+                        <div class="pwc-price-range">
+                            <span class="pwc-original-price">$17.00</span>
+                            <span class="pwc-sale-price">$16.20</span>
+                        </div>
+                    </div>
+                </div>
+  
+                <!-- Product 5 -->
+                <div class="pwc-product-col">
+                    <div class="pwc-product-card">
+                        <div class="pwc-product-image-wrapper">
+                            <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-6-2.jpg" alt="Shoulder Bags" class="pwc-product-image">
+                            <div class="pwc-product-overlay">
+                                <button class="pwc-product-button">Quick View</button>
+                            </div>
+                        </div>
+                        <h3 class="pwc-product-title">Top Handle Shoulder Bags</h3>
+                        <div class="pwc-price-range">$20.80 – $21.90</div>
+                    </div>
+                </div>
+            </div>
+  
+            <!-- Second Row (Duplicate first row products for example) -->
+            <div class="pwc-products-row">
+              <!-- Product 1 -->
+              <div class="pwc-product-col">
+                  <div class="pwc-product-card">
+                      <div class="pwc-product-image-wrapper">
+                          <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-5-2.jpg" alt="Women's Tank Top" class="pwc-product-image">
+                          <div class="pwc-product-overlay">
+                              <button class="pwc-product-button">Quick View</button>
+                          </div>
+                      </div>
+                      <h3 class="pwc-product-title">Womens Summer Tank Tops</h3>
+                      <div class="pwc-price-range">$12.50 – $16.10</div>
+                  </div>
+              </div>
+  
+              <!-- Product 2 -->
+              <div class="pwc-product-col">
+                  <div class="pwc-product-card">
+                      <div class="pwc-product-image-wrapper">
+                          <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-4-2.jpg" alt="Walking Shoes" class="pwc-product-image">
+                          <div class="pwc-product-overlay">
+                              <button class="pwc-product-button">Quick View</button>
+                          </div>
+                      </div>
+                      <h3 class="pwc-product-title">Comfortable Walking Shoes</h3>
+                      <div class="pwc-price-range">
+                          <span class="pwc-original-price">$49.00</span>
+                          <span class="pwc-sale-price">$39.00</span>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 3 -->
+              <div class="pwc-product-col">
+                  <div class="pwc-product-card">
+                      <div class="pwc-product-image-wrapper">
+                          <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-8-2.jpg" alt="Men's Shorts" class="pwc-product-image">
+                          <div class="pwc-product-overlay">
+                              <button class="pwc-product-button">Quick View</button>
+                          </div>
+                      </div>
+                      <h3 class="pwc-product-title">Men's Regular Shorts</h3>
+                      <div class="pwc-price-range">$16.20 – $22.00</div>
+                  </div>
+              </div>
+  
+              <!-- Product 4 -->
+              <div class="pwc-product-col">
+                  <div class="pwc-product-card">
+                      <div class="pwc-product-image-wrapper">
+                          <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-12-2.jpg" alt="Jean Shorts" class="pwc-product-image">
+                          <div class="pwc-product-overlay">
+                              <button class="pwc-product-button">Quick View</button>
+                          </div>
+                      </div>
+                      <h3 class="pwc-product-title">Black Jean Shorts For Women</h3>
+                      <div class="pwc-price-range">
+                          <span class="pwc-original-price">$17.00</span>
+                          <span class="pwc-sale-price">$16.20</span>
+                      </div>
+                  </div>
+              </div>
+  
+              <!-- Product 5 -->
+              <div class="pwc-product-col">
+                  <div class="pwc-product-card">
+                      <div class="pwc-product-image-wrapper">
+                          <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/home-one-shop-11-2.jpg" alt="Shoulder Bags" class="pwc-product-image">
+                          <div class="pwc-product-overlay">
+                              <button class="pwc-product-button">Quick View</button>
+                          </div>
+                      </div>
+                      <h3 class="pwc-product-title">Top Handle Shoulder Bags</h3>
+                      <div class="pwc-price-range">$20.80 – $21.90</div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <img src="img.png" alt="bg image">
+
+    <!-- featured-section -->
+    <div class="featured-section">
+      <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2023/12/hotspot.jpg" alt="Featured Image" class="featured-image">
+      <div class="product-section">
+          <h6 class="text-muted">EXPLORE CUSTOMER'S FAVOURITE</h6>
+          <h2 class="mb-4">Featured Products</h2>
+          <div class="d-flex justify-content-between align-items-center mb-3">
+              <hr class="flex-grow-1 me-3" style="width: 10px;">
+              <a href="#" class="text-decoration-none">VIEW ALL</a>
+          </div>
+          <div class="product-carousel">
+              <div class="product-item">
+                  <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/demo-five-shop-2-2.png" alt="Holiday Half Sleeve T-Shirt" class="mb-2">
+                  <h5>Holiday Half Sleeve T-Shirt</h5>
+                  <p>$9.45 - $9.85</p>
+              </div>
+              <div class="product-item">
+                  <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/demo-five-shop-1-2.png" alt="Hop Loose Trousers Jeans" class="mb-2">
+                  <h5>Hop Loose Trousers Jeans</h5>
+                  <p>$21.30 - $21.90</p>
+              </div>
+              <div class="product-item">
+                  <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/demo-five-shop-5-2.png" alt="Summer Dress" class="mb-2">
+                  <h5>Summer Dress</h5>
+                  <p>$29.99 - $34.99</p>
+              </div>
+              <div class="product-item">
+                  <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/02/demo-five-shop-4-2.png" alt="Casual Sneakers" class="mb-2">
+                  <h5>Casual Sneakers</h5>
+                  <p>$49.99 - $59.99</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+    <!-- Carousel wrapper -->
+    <div
+      id="carouselMultiItemExample"
+      class="carousel slide carousel-dark text-center"
+      data-bs-ride="carousel"
+    >
+      <!-- Controls -->
+      <div class="d-flex justify-content-center mb-4">
+        <button
+          class="carousel-control-prev position-relative"
+          type="button"
+          data-bs-target="#carouselMultiItemExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next position-relative"
+          type="button"
+          data-bs-target="#carouselMultiItemExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner py-4">
+        <!-- Single row of items -->
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb-3">Anna Deynah</h5>
+                <p>UX Designer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb-3">John Doe</h5>
+                <p>Web Developer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star-half-alt fa-sm"></i></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb-3">Maria Kate</h5>
+                <p>Photographer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="far fa-star fa-sm"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second slide with single row -->
+        <div class="carousel-item">
+          <div class="container">
+            <div class="d-flex justify-content-center">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(3).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb-3">John Doe</h5>
+                <p>UX Designer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb-3">Alex Rey</h5>
+                <p>Web Developer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star-half-alt fa-sm"></i></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <img
+                  class="rounded-circle shadow-1-strong mb-4"
+                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(5).webp"
+                  alt="avatar"
+                  style="width: 150px"
+                />
+                <h5 class="mb3">Maria Kate</h5>
+                <p>Photographer</p>
+                <p class="text-muted">
+                  <i class="fas fa-quote-left pe-2"></i>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium.
+                </p>
+                <ul
+                  class="list-unstyled d-flex justify-content-center text-warning mb-0"
+                >
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="fas fa-star fa-sm"></i></li>
+                  <li><i class="far fa-star fa-sm"></i></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--   /* Zaccaria */ -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="product-image">
+            <img
+              src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Image-box-1.jpg"
+              alt="Marina Jeans And Tshirts"
+              class="img-fluid"
+            />
+          </div>
+          <h3 class="product-title">Marina Jeans And Tshirts</h3>
+          <p class="product-description">
+            Lectus magna fringilla urna porttitor rhoncus.
+          </p>
+          <button class="explore-btn">Explore More</button>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="product-image">
+            <img
+              src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Image-box-2.jpg"
+              alt="Marina Linen Fabric Wear"
+              class="img-fluid"
+            />
+          </div>
+          <h3 class="product-title">Marina Linen Fabric Wear</h3>
+          <p class="product-description">
+            Aenean et tortor at risus viverra adipiscing at in.
+          </p>
+          <button class="explore-btn">Explore More</button>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="product-image">
+            <img
+              src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Image-box-3.jpg"
+              alt="Sofia Linen Fabric Wear"
+              class="img-fluid"
+            />
+          </div>
+          <h3 class="product-title">Sofia Linen Fabric Wear</h3>
+          <p class="product-description">
+            Lectus nulla at volutpat diam ut venenatis tellus in metus.
+          </p>
+          <button class="explore-btn">Explore More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instagram component -->
+ 
+  <div class="ig-section-wrapper">
+    <div class="ig-header">
+        <div class="ig-follow-text">Follow us @birch.home</div>
+        <h2 class="ig-title">Instagram Views</h2>
+    </div>
+    
+    <div class="ig-gallery-container">
+        <div class="ig-gallery">
+            <!-- Gallery Item 1 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-03.png" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-04.png" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-01.png" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-02.png" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Gallery Item 5 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-05.jpg" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Gallery Item 6 -->
+            <div class="ig-gallery-item">
+                <img src="https://wdtkoka.wpengine.com/wp-content/uploads/2024/01/Koka-instagram-img-07.png" alt="Fashion" class="ig-gallery-image">
+                <div class="ig-gallery-overlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ig-gallery-icon">
+                        <path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                        <path d="M18 19v-4"></path>
+                        <path d="M6 19v-4"></path>
+                        <path d="M12 19v-4"></path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+<footer class="footer-section">
+  <div >
+      <div class="row">
+          <!-- Newsletter Section (Left) -->
+          <div class="col-lg-3 footer-col">
+              <h3 class="footer-heading">Get Active <span>Updates</span></h3>
+              <p class="footer-text">Pharetra diam sit amet nisl suscipit adipiscing bibendum. Orci sagittis eu volutpat.</p>
+              <form class="subscribe-form">
+                  <div class="input-group mb-3">
+                      <input type="email" class="form-control" placeholder="Enter Your Mail Id">
+                      <button class="subscribe-btn" type="submit">Submit Now</button>
+                  </div>
+              </form>
+              <p class="footer-text">Subscribe Today To Get a Special Discount!</p>
+          </div>
+
+          <!-- Center Sections (Presents, Shop, Koka) -->
+          <div class="col-lg-6">
+              <div class="center-sections">
+                  <!-- Presents Section -->
+                  <div class="center-section">
+                      <h5 class="mb-3" style="font-size: 1rem;">PRESENTS</h5>
+                      <ul class="footer-links">
+                          <li><a href="#">Sales Platform</a></li>
+                          <li><a href="#">Marketing Platform</a></li>
+                          <li><a href="#">Partners Platform</a></li>
+                          <li><a href="#">Conversations</a></li>
+                          <li><a href="#">Product Updates</a></li>
+                      </ul>
+                  </div>
+
+                  <!-- Shop Section -->
+                  <div class="center-section">
+                      <h5 class="mb-3" style="font-size: 1rem;">SHOP</h5>
+                      <ul class="footer-links">
+                          <li><a href="#">Shop All</a></li>
+                          <li><a href="#">Sale</a></li>
+                          <li><a href="#">Discount Store</a></li>
+                          <li><a href="#">Offer Zone</a></li>
+                          <li><a href="#">Basic Collection</a></li>
+                      </ul>
+                  </div>
+
+                  <!-- Koka Section -->
+                  <div class="center-section">
+                      <h5 class="mb-3" style="font-size: 1rem;">KOKA</h5>
+                      <ul class="footer-links">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Journal</a></li>
+                          <li><a href="#">Account</a></li>
+                          <li><a href="#">Lookbook</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Credits Section (Right) -->
+          <div class="col-lg-3 footer-col">
+              <h5 class="mb-3" style="font-size: 1rem;">CREDITS</h5>
+              <p class="credits-text">Dui nunc mattis enim ut tellus elementum sagittis vitae et. Vel quam elementum pulvinar etiam non quam gravida arcu ac tortor dignissi.</p>
+              <div class="social-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-pinterest"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Bottom Footer -->
+      <div class="bottom-footer">
+          <div class="row align-items-center">
+              <div class="col-md-4">
+                  <a href="mailto:Hello@Koka.com" style="font-size: 0.8rem;">Hello@Koka.com</a>
+              </div>
+              <div class="col-md-4 text-center">
+                  <div class="payment-methods">
+                      <img src="https://newsroom.ca.paypal-corp.com/image/pp_h_rgb_logo_tn.jpg" alt="PayPal">
+                      <img src="https://static.liberal.gr/styles/liberal_watermark_social/s3/2024-02/1707240021074_mastercard1.jpg?VersionId=VWeTMw3WVz.LIndjB9wdMS63eqGhSs3A&itok=rY0Ea_j0" alt="Mastercard">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Rupay-Logo.png" alt="RuPay">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZVxQZ2UYa4aZMO1u_hgQPt-OVvqLq5MnoA&s" alt="Stripe">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9q0sqA5NdwQUjBroTrgKxBchTW7cB40KjUQ&s" alt="Visa">
+                  </div>
+              </div>
+              <div class="col-md-4 text-end">
+                  <p class="mb-0" style="font-size: 0.8rem;">© Copyright, Koka, 2024</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+  
+
+
+
+
+
+    <!-- Navbar logic -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var dropdowns = document.querySelectorAll(".dropdown-toggle");
+        dropdowns.forEach(function (dropdown) {
+          dropdown.addEventListener("click", function (event) {
+            event.preventDefault();
+            var dropdownMenu = this.nextElementSibling;
+            dropdownMenu.classList.toggle("show");
+          });
+        });
+      });
+    </script>
+
+    <!-- Slider Logics -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        const $slider = $(".slider");
+        const $slides = $(".slide"); // This should select the correct number of slides
+        const $nav = $(".slider-nav");
+        let currentSlide = 0;
+        const totalSlides = $slides.length-1; // Calculate the total number of slides (should be 3)
+    
+        // Remove any existing dots (just in case there is extra markup)
+        $nav.empty();
+    
+        // Create navigation dots for each slide
+        $slides.each((index) => {
+          if (index < totalSlides) {  // Limit to the number of slides
+            $nav.append(`<button data-index="${index}"></button>`);
+          }
+        });
+    
+        const $navButtons = $(".slider-nav button");
+    
+        function goToSlide(index) {
+          currentSlide = index;
+          $slider.css("transform", `translateX(-${index * 100}%)`);
+          $navButtons.removeClass("active").eq(index).addClass("active");
+        }
+    
+        // Handle navigation dot clicks
+        $navButtons.on("click", function () {
+          goToSlide($(this).data("index"));
+        });
+    
+        // Auto-advance slides every 5 seconds
+        setInterval(() => {
+          currentSlide = (currentSlide + 1) % totalSlides;
+          goToSlide(currentSlide);
+        }, 5000);
+    
+        // Initialize first slide
+        goToSlide(0);
+      });
+    </script>
+
+    <!-- Banner Logic -->
+    <script>
+      // Optional: Countdown Timer Logic
+      const countdown = () => {
+        const targetDate = new Date("Dec 31, 2024 00:00:00").getTime();
+        const now = new Date().getTime();
+        const difference = targetDate - now;
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor(
+          (difference % (1000 * 60 * 60)) / (1000 * 60)
+        );
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        document.getElementById("days").textContent = days;
+        document.getElementById("hours").textContent = hours;
+        document.getElementById("minutes").textContent = minutes;
+        document.getElementById("seconds").textContent = seconds;
+
+        if (difference < 0) {
+          clearInterval(interval);
+          document.getElementById("days").textContent = "0";
+          document.getElementById("hours").textContent = "0";
+          document.getElementById("minutes").textContent = "0";
+          document.getElementById("seconds").textContent = "0";
+        }
+      };
+
+      const interval = setInterval(countdown, 1000);
+    </script>
+
+    <!--fashion collection script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Carousel wrapper Logic -->
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const items = document.querySelectorAll(".carousel .carousel-item");
+
+        items.forEach((el) => {
+          const minPerSlide = 1;
+          let next = el.nextElementSibling;
+          for (let i = 1; i < minPerSlide; i++) {
+            if (!next) {
+              next = items[0];
+            }
+            let cloneChild = next.cloneNode(true);
+            el.appendChild(cloneChild.children[0]);
+            next = next.nextElementSibling;
+          }
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+  </body>
+</html>
